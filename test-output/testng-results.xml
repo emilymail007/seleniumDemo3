@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suit" duration-ms="15141" started-at="2017-06-30T06:52:32Z" finished-at="2017-06-30T06:52:47Z">
+    <groups>
+    </groups>
+    <test name="SeleniumTest" duration-ms="15110" started-at="2017-06-30T06:52:32Z" finished-at="2017-06-30T06:52:47Z">
+      <class name="TestFor1">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:TestFor1@4cdbe50f]" name="testcase2" duration-ms="0" started-at="2017-06-30T14:52:32Z" finished-at="2017-06-30T14:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="FAIL" signature="testcase1()[pri:0, instance:TestFor1@4cdbe50f]" name="testcase1" duration-ms="0" started-at="2017-06-30T14:52:32Z" finished-at="2017-06-30T14:52:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at TestFor1.testcase1(TestFor1.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- TestFor1 -->
+      <class name="SeleniumChromeTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumChromeTest@d7b1517]" name="beforeMethod" is-config="true" duration-ms="3219" started-at="2017-06-30T14:52:32Z" finished-at="2017-06-30T14:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:SeleniumChromeTest@d7b1517]" name="f" duration-ms="10246" started-at="2017-06-30T14:52:35Z" finished-at="2017-06-30T14:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SeleniumChromeTest@d7b1517]" name="afterMethod" is-config="true" duration-ms="1629" started-at="2017-06-30T14:52:45Z" finished-at="2017-06-30T14:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- SeleniumChromeTest -->
+    </test> <!-- SeleniumTest -->
+    <test name="LoginTest" duration-ms="0" started-at="2017-06-30T06:52:47Z" finished-at="2017-06-30T06:52:47Z">
+      <class name="LoginTest">
+        <test-method status="PASS" signature="testcase001()[pri:0, instance:LoginTest@e580929]" name="testcase001" duration-ms="0" started-at="2017-06-30T14:52:47Z" finished-at="2017-06-30T14:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase001 -->
+        <test-method status="PASS" signature="testcase002()[pri:0, instance:LoginTest@e580929]" name="testcase002" duration-ms="0" started-at="2017-06-30T14:52:47Z" finished-at="2017-06-30T14:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase002 -->
+      </class> <!-- LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- suit -->
+</testng-results>
