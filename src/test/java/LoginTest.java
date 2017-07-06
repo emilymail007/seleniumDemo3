@@ -30,4 +30,8 @@ public class LoginTest {
     public void testcase006() {
         Assert.assertFalse(false);
     }
+    @Test(testName = "loginTest007")
+    public void testcase007() {
+        Assert.assertFalse(false);
+    }
 }
