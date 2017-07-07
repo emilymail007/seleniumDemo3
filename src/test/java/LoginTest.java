@@ -1,9 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-/**
- * Created by user on 2017/6/30.
- */
+
 public class LoginTest {
     @Test(testName = "loginTest001")
     public void testcase001() {
