@@ -20,4 +20,16 @@ public class LoginTest {
     public void testcase004() {
         Assert.assertFalse(false);
     }
+    @Test(testName = "loginTest005")
+    public void testcase005() {
+        Assert.assertFalse(false);
+    }
+    @Test(testName = "loginTest006")
+    public void testcase006() {
+        Assert.assertFalse(false);
+    }
+    @Test(testName = "loginTest007")
+    public void testcase007() {
+        Assert.assertFalse(false);
+    }
 }
